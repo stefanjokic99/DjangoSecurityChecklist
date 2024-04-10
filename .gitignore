@@ -1,0 +1,3 @@
+db.sqlite3
+secureapp/__pycache__/*
+webCheckList/__pycache__/*

@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block content %}
+<title> SecureX | Account locked </title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<br>
+<br>
+<div class="container bg-white shadow-md p-5 form-layout">
+  <div class="text-center">
+    <i class="fa fa-lock fa-4x text-dark" aria-hidden="true"></i>
+    <br><br>
+    <h4 class="text-uppercasse"> Account locked </h4>
+    <p> You have benn locked out of your account due to multiple failed login attempts. </p>
+    <p> You may re-attempt to login to your account after the expiry period. </p>
+    <a class="btn btn-info" type="button"  href="{% url '' %}"> <i class="fa fa-user" aria-hidden="true"></i> &nbsp; Return to homepage </a>    
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,19 @@
+h1 {
+  color: blue;
+}
+
+body {
+  background-color: #f0f0f0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-layout {
+  width: 500px;
+  border-radius: 20px;
+}
+
+footer {
+  margin-top: auto;
+}
