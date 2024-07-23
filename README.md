@@ -27,9 +27,7 @@ To run this project on your local machine, follow these steps:
 
 ### Backend Setup
 
-1. Navigate to the project directory.
-   ```bash
-   cd DjangoSecurityChecklist
+1. Clone the repository.
 2. Create and activate a virtual environment.
    ```bash
    python -m venv venv
