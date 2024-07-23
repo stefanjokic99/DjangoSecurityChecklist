@@ -55,6 +55,3 @@ To run this project on your local machine, follow these steps:
 - **Backend:** Built with Django, following best practices for security configurations.
 - **Authentication:** Uses Django's built-in authentication mechanisms, enhanced with JWT and OAuth 2.0 standards where applicable.
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
